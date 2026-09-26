@@ -130,17 +130,17 @@
 .peu-mini { padding-block: 1.25rem; }
 .peu-mini .peu-baix { margin-top: 0; padding-top: 0; border-top: 0; }
 
-/* Fons: foto càlida i tranquil·la (gal-03), desenfocada i amb vela de guix
+/* Fons: el tejado amb plaques (hero-tejado), desenfocat i amb vel de calç (--cal)
    perquè el text i les opcions es llegeixin igual que sobre el fons pla. */
 .calc { position: relative; isolation: isolate; }
 .calc::before {
   content: ""; position: fixed; inset: -2rem; z-index: -2;
-  background: url("../assets/img/gal-03.jpg") center / cover no-repeat;
+  background: url("../assets/img/hero-tejado.jpg") center / cover no-repeat;
   filter: blur(8px) saturate(1.08);
 }
 .calc::after {
   content: ""; position: fixed; inset: 0; z-index: -1;
-  background: linear-gradient(180deg, rgba(237, 238, 234, .78) 0%, rgba(237, 238, 234, .88) 100%);
+  background: linear-gradient(180deg, rgba(244, 245, 242, .78) 0%, rgba(244, 245, 242, .88) 100%);
 }
 
 /* Slider de metres quadrats */
