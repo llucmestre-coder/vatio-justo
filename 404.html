@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esta página no existe · 404</title>
+  <!-- Web de demostración: no s'indexa (PLA.md §Honestedat). -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#141C27">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/SofiaSansCondensed-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/SofiaSans-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/i18n.js"></script>
+</head>
+<body>
+  <a class="salta" href="#contenido">Saltar al contenido</a>
+  <header class="cap">
+    <div class="wrap cap-in">
+      <a class="marca" href="/index.html" aria-label="Vatio Justo, inicio">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="11" width="21" height="18" rx="1.5" fill="currentColor"/><path class="marca-linia" d="M9 11v18M16 11v18M2 20h21" stroke-width="1.4"/><circle cx="26" cy="6.5" r="4.5" fill="#A9551B"/></svg>
+        Vatio Justo
+      </a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="/placas-solares.html">Placas solares</a>
+        <a href="/aerotermia.html">Aerotermia</a>
+        <a href="/tramites-y-ayudas.html">Trámites y ayudas</a>
+        <a href="/contacto.html">Contacto</a>
+      </nav>
+      <!-- Desplegable d'idioma (plantilla: <skill web-demo>/assets/i18n/tria-idioma.html).
+           NOMÉS existeix si el JS ha arrencat: js/i18n.js posa `te-js` a
+           l'<html> des del <head>. Un control mort val menys que cap control. -->
+      <div class="tria-idioma" data-idioma-tria>
+        <button class="tria-idioma-boto" type="button" data-idioma-boto
+                aria-expanded="false" aria-haspopup="true"
+                aria-label="Idioma de la página">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8ZM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96ZM4.26 14a7.85 7.85 0 0 1 0-4h3.38a16.6 16.6 0 0 0-.14 2c0 .68.06 1.34.14 2Zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.99 7.99 0 0 1 5.08 16Zm2.95-8H5.08a7.99 7.99 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.03 8ZM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96ZM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2Zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56ZM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38a7.85 7.85 0 0 1 0 4Z"/></svg>
+          <span data-idioma-actual data-sense-traduir>ES</span>
+          <svg class="tria-idioma-punta" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 15 6 9h12z"/></svg>
+        </button>
+        <!-- Cada idioma es diu com es diu ell mateix, no traduït: qui busca la
+             seva llengua busca la paraula que coneix. Sempre CA · ES · EN. -->
+        <ul class="tria-idioma-menu" data-idioma-menu data-sense-traduir hidden>
+          <li><button type="button" data-idioma-opcio="ca" lang="ca">Català</button></li>
+          <li><button type="button" data-idioma-opcio="es" lang="es">Castellano</button></li>
+          <li><button type="button" data-idioma-opcio="en" lang="en">English</button></li>
+        </ul>
+      </div>
+      <a class="cap-tel" href="tel:+34600000000">600 000 000</a>
+      <a class="btn btn-principal" href="/calculadora.html">Calcular mi ahorro</a>
+      <button class="nav-obre" type="button" aria-expanded="false" aria-controls="nav"><span></span><span class="visually-hidden">Menú</span></button>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="seccio">
+      <div class="wrap">
+        <h1>Esta página no existe</h1>
+        <p>Puede que el enlace esté roto o que la página se haya movido. Vuelve al inicio o llámanos.</p>
+        <p><a class="btn" href="/index.html">Volver al inicio</a></p>
+        <p>O llámanos: <a class="cta-tel" href="tel:+34600000000">600 000 000</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="peu">
+    <div class="wrap">
+      <div class="peu-graella">
+        <div>
+          <a class="marca" href="/index.html" aria-label="Vatio Justo, inicio">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="11" width="21" height="18" rx="1.5" fill="currentColor"/><path class="marca-linia" d="M9 11v18M16 11v18M2 20h21" stroke-width="1.4"/><circle cx="26" cy="6.5" r="4.5" fill="#A9551B"/></svg>
+            Vatio Justo
+          </a>
+          <p>Placas solares, baterías y aerotermia. De lunes a viernes, de 8 a 18 h.</p>
+        </div>
+        <div>
+          <h2>Qué hacemos</h2>
+          <ul>
+            <li><a href="/placas-solares.html">Placas solares</a></li>
+            <li><a href="/aerotermia.html">Aerotermia</a></li>
+            <li><a href="/tramites-y-ayudas.html">Trámites y ayudas</a></li>
+            <li><a href="/calculadora.html">Calcular mi ahorro</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contacto</h2>
+          <ul>
+            <li><a href="tel:+34600000000">600 000 000</a></li>
+            <li><a href="https://wa.me/34600000000" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="/contacto.html">Escríbenos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="peu-baix">
+        <span>© 2026 Vatio Justo</span>
+        <a href="/aviso-legal.html">Aviso legal</a>
+        <a href="/politica-privacidad.html">Privacidad</a>
+        <a href="/politica-cookies.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+<script src="/js/traduccions.js" defer></script>
+<script src="/js/main.js" defer></script>
+</body>
+</html>
